@@ -12,8 +12,8 @@ grunt &
 curl 0.0.0.0:3000
 
 
-git clone --depth=1 https://github.com/brownman/scrapping.git 
-cd scrapping
+#git clone --depth=1 https://github.com/brownman/scrapping.git 
+#cd scrapping
 #install:
 npm install -g casperjs
 #script:
