@@ -9,12 +9,11 @@ meanio
 
 mission
 ----
--  find out the user experience - then make it better
+-  find out the user p.o.v - then make it better
 
 
 
 
 todo
 ----
--  walkthrough / command-line experience 
--  recored the user experience ascii/videw
+-  recored the user experience travis-output/ascii/video
