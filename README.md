@@ -19,4 +19,5 @@ why ?
 
 later:
 ----
--  record the user experience travis-output/ascii/video
+-  **video** - auto-publish video (ascii or regular)
+- **navigation testing** -  using casperjs
