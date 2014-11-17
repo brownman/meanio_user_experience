@@ -1,5 +1,6 @@
 language: javascript
 cache: npm
+services: mongodb
 
 before_install:
   - echo hi
