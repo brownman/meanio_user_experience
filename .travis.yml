@@ -8,4 +8,5 @@ install:
   - echo hi
 script:
   - chmod u+x installer.sh
+  - chmod u+x test.sh
   - ./installer.sh
