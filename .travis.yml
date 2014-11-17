@@ -4,10 +4,8 @@ services: mongodb
 
 before_install:
   - echo hi
-  
 install:
   - echo hi
-  
 script:
   - chmod u+x installer.sh
   - ./installer.sh
