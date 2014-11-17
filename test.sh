@@ -4,8 +4,8 @@ install(){
 }
 
 run(){
-file=specs/home.js
-cmd="casperjs $file"
+local file=specs/title.js
+local cmd="casperjs test $file"
 echo "[CMD] $cmd"
 eval "$cmd"
 }
