@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/brownman/meanio_user_experiance.svg?branch=master)](https://travis-ci.org/brownman/meanio_user_experiance)
+[![Build Status](https://travis-ci.org/brownman/meanio_user_experiance.svg?branch=master)](https://travis-ci.org/brownman/meanio_user_experience)
 
 ***mean.io:*** The CLI experience
 
