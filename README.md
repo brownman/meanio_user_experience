@@ -1,6 +1,6 @@
-meanio 
------
-##### The command-line experience
+[![Build Status](https://travis-ci.org/brownman/meanio_user_experiance.svg?branch=master)](https://travis-ci.org/brownman/meanio_user_experiance)
+
+***mean.io:*** The command-line experience
 - how to use the cli for generate a new mean application/package  ?
 
 
