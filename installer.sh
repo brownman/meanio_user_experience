@@ -25,7 +25,7 @@ scaffold(){
  }
  
 visit(){
-while true; do  curl 0.0.0.0:3000 && break ; sleep 1 ; done
+while true; do  curl 0.0.0.0:3000 2>/dev/null && break ; sleep 1 ; done
 }
  
  steps(){
