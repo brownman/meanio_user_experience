@@ -10,8 +10,7 @@ before_install:
 install:
   - echo hi
 script:
-  - chmod u+x installer.sh
-  - chmod u+x test.sh
+  - chmod u+x -R *.sh
   - ./installer.sh
-  - ./test.sh
+  #- ./navigation/test.sh
 
