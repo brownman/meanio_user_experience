@@ -12,5 +12,5 @@ install:
 script:
   - chmod u+x -R *.sh
   - ./installer.sh
-  #- ./navigation/test.sh
+  - ./navigation/test.sh
 
