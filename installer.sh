@@ -24,9 +24,9 @@ scaffold(){
    grunt &
  }
  
- visit(){
-  sudo apt-get install curl
- }
+visit(){
+while true; do  curl 0.0.0.0:3000 && break ; sleep 1 ; done
+}
  
  steps(){
   install 
