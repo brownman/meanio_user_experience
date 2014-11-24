@@ -5,6 +5,7 @@ echo 'http://learn.mean.io/'
 install(){
  echo install npm deps
  npm install -g mean-cli
+ sudo apt-get install curl
 }
 
 scaffold(){
@@ -24,7 +25,7 @@ scaffold(){
  }
  
  visit(){
-  echo
+  sudo apt-get install curl
  }
  
  steps(){
@@ -33,3 +34,5 @@ scaffold(){
   test
   visit
  }
+
+steps
