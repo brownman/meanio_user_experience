@@ -11,6 +11,7 @@ install(){
 scaffold(){
  echo scaffold new skeleton for a mean app
   
+  
  mean init myApp
  cd myApp
  #npm -g install
