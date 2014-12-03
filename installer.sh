@@ -1,10 +1,10 @@
 #!/bin/bash 
-
+ver=0.5
 echo 'http://learn.mean.io/'
 
 install(){
  echo install npm deps
- npm install -g mean-cli
+ npm install -g mean-cli@${ver}
  sudo apt-get install curl
 }
 
