@@ -22,20 +22,9 @@ npm link
 
 
 
- test1(){
-    grunt test
- }
- 
-visit(){
-grunt &
-while true; do  curl 0.0.0.0:3000 2>/dev/null && break ; sleep 1 ; done
-}
- 
  steps(){
   install 
   scaffold
-  test1
-  visit
  }
 
 steps
