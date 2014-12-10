@@ -6,11 +6,11 @@ env:
     secure: sfO3J/nwkB4j79jaKbwhvto/l+RhlGdaZlWDqJkOD5McbzjRQcehKZSfkNvkGYdrP7a/473rtyq0jcL4k7Cb5mzGQG8bdnI6KIlzgfGVJOqWiyFaQ3LhtGJbzMRnOc2VN8wBQaHPzz2wI0W0nCpKHeJ9hg3cow2NS00ntOBTUKA=
 
 before_install:
-  - echo hi
-install:
-  - echo hi
-script:
   - chmod u+x *.sh . -R
+  
+install:
   - ./installer.sh
-  - ./navigation/test.sh
+  
+script:
+  - ./test.sh
 
