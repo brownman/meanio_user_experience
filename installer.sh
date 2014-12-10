@@ -12,8 +12,8 @@ install(){
 scaffold(){
 echo 1>&2 scaffold new skeleton for a mean app
 cd $HOME
-/usr/bin/yes |  mean init myApp
-mv y myApp
+echo -e '\n\n' |  mean init myApp
+
 cd myApp
 #npm -g install
 npm install -g
