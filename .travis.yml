@@ -1,6 +1,9 @@
 language: node_js
-cache: npm
+cache:
+  - npm
+  
 services: mongodb
+
 env:
   - test='cli'
   - test='ui'
