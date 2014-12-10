@@ -22,7 +22,7 @@ npm link
 
 
 
- test(){
+ test1(){
     grunt test
  }
  
