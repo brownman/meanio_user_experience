@@ -12,7 +12,7 @@ install(){
 scaffold(){
 echo 1>&2 scaffold new skeleton for a mean app
 cd $HOME
-echo -e '\n\n' |  mean init myApp
+echo -e '\n' |  mean init myApp
 
 cd myApp
 #npm -g install
