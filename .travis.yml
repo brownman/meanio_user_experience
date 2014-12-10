@@ -2,15 +2,12 @@ language: node_js
 cache: npm
 services: mongodb
 env:
-  global:
-    secure: sfO3J/nwkB4j79jaKbwhvto/l+RhlGdaZlWDqJkOD5McbzjRQcehKZSfkNvkGYdrP7a/473rtyq0jcL4k7Cb5mzGQG8bdnI6KIlzgfGVJOqWiyFaQ3LhtGJbzMRnOc2VN8wBQaHPzz2wI0W0nCpKHeJ9hg3cow2NS00ntOBTUKA=
-
-before_install:
-  - chmod u+x *.sh . -R
+  - test='cli'
+  - test='ui'
   
 install:
+  - chmod u+x *.sh . -R
   - ./installer.sh
   
 script:
   - ./test.sh
-
