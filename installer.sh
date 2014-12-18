@@ -4,6 +4,7 @@ echo 'http://learn.mean.io/'
 
 install(){
  echo install npm deps
+ npm install -g grunt grunt-cli bower 
  npm install -g mean-cli
  #@${ver}
  sudo apt-get install curl
